@@ -1,0 +1,713 @@
+{
+        "intents": [
+                {
+                        "tag": "greeting",
+                        "patterns": [
+                                "Hi",
+                                "How are you",
+                                "Is anyone there?",
+                                "Hello",
+                                "Good day",
+                                "Whats up",
+                                "how are ya",
+                                "heyy",
+                                "whatsup"
+                        ],
+                        "responses": [
+                                "Hello!",
+                                "Good to see you again!",
+                                "Hi there, how can I help?"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "goodbye",
+                        "patterns": [
+                                "see you",
+                                "bye bye",
+                                "See you later",
+                                "Goodbye",
+                                "I am Leaving",
+                                "Bye",
+                                "Have a Good day",
+                                "talk to you later",
+                                "tyyl",
+                                "i got to go",
+                                "gtg"
+                        ],
+                        "responses": [
+                                "Sad to see you go :(",
+                                "Talk to you later",
+                                "Goodbye!",
+                                "Come back soon"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "creator",
+                        "patterns": [
+
+                                "what is the name of your developers",
+                                "what is the name of your creators",
+                                "what is the name of the developers",
+                                "what is the name of the creators",
+                                "who created you",
+                                "your developers",
+                                "your creators",
+                                "who are your developers",
+                                "developers",
+                                "you are made by",
+                                "you are made by whom",
+                                "who created you",
+                                "who create you",
+                                "creators",
+                                "who made you",
+                                "who designed you"
+                        ],
+                        "responses": [
+                                "Dhivyadharcini from III B.Voc (AI&ML)  developed me."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "name",
+                        "patterns": [
+                                "name",
+                                "your name",
+                                "do you have a name",
+                                "what are you called",
+                                "what is your name",
+                                "what should I call you",
+                                "whats your name?",
+                                "what are you",
+                                "who are you",
+                                "who is this",
+                                "what am i chatting to",
+                                "who am i taking to",
+                                "what are you"
+                        ],
+                        "responses": [
+                                "You can call me Department Assisstance.",
+                                "I'm DA Chatbot"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "hours",
+                        "patterns": [
+                                "timing of college",
+                                "what is college timing",
+                                "working days",
+                                "when are you guys open",
+                                "what are your hours",
+                                "hours of operation",
+                                "when is the college open",
+                                "college timing",
+                                "what about college timing",
+                                "is college open on saturday",
+                                "tell something about college timing",
+                                "what is the college  hours",
+                                "when should i come to college",
+                                "when should i attend college",
+                                "what is my college time",
+                                "college timing",
+                                "timing college"
+                        ],
+                        "responses": [
+                                "College is open 9.45am-5pm Monday-Friday!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "number",
+                        "patterns": [
+
+                                "more info",
+                                "contact info",
+                                "how to contact college",
+                                "college telephone number",
+                                "college number",
+                                "What is your contact no",
+                                "Contact number?",
+                                "how to call you",
+                                "College phone no?",
+                                "how can i contact you",
+                                "Can i get your phone number",
+                                "how can i call you",
+                                "phone number",
+                                "phone no",
+                                "call"
+                        ],
+                        "responses": [
+                                "You can contact at 0422 244 0241"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "course",
+                        "patterns": [
+                                "list of courses",
+                                "list of courses offered",
+                                "list of courses offered in this department",
+                                "what are the courses offered in your college?",
+                                "courses?",
+                                "courses offered",
+                                "courses offered in avinashilingam university",
+                                "courses you offer",
+                                "branches?",
+                                "courses available at CS Department?",
+                                "branches available at Computer science department?",
+                                "what are the courses in cs department?",
+                                "what are branches in this college?",
+                                "what are courses in this department?",
+                                "branches available in cs department?",
+                                "can you tell me the courses available here?",
+                                "can you tell me the branches available in this department?"
+                              
+                        ],
+                        "responses": [
+                                "B.Sc.Computer Science,B.C.A,B.Voc  Artificial Intelligence and Machine Learning,M.Sc.   Computer Science,MCA (AICTE Approved programme),PG Diploma in Artificial Intelligence (from academic year 2020-2021 onwards),Ph.D Computer Science."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "fees",
+                        "patterns": [
+                                "information about fee",
+                                "information on fee",
+                                "tell me the fee",
+                                "college fee",
+                                "fee per semester",
+                                "what is the fee of each semester",
+                                "what is the fees of each year",
+                                "what is fee",
+                                "what is the fees",
+                                "how much is the fees",
+                                "fees for first year",
+                                "fees",
+                                "about the fees",
+                                "tell me something about the fees"
+                        ],
+                        "responses": [
+                                "For Fee detail visit for UG <a target=\"_blank\" href=\"https://avinuty.ac.in/maincampus/uploads/admission/2022-23/Fee/UG_Fee%20structure.pdf\"> here</a> For PG <a target=\"_blank\" href=\"https://avinuty.ac.in/maincampus/uploads/admission/2022-23/Fee/PG_Fee%20structure.pdf\"> here</a> "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "location",
+                        "patterns": [
+                                "where is the college located",
+                                "college is located at",
+                                "where is college",
+                                "where is college located",
+                                "address of college",
+                                "how to reach college",
+                                "college location",
+                                "college address",
+                                "wheres the college",
+                                "how can I reach college",
+                                "whats is the college address",
+                                "what is the address of college",
+                                "address",
+                                "location"
+                        ],
+                        "responses": [
+                                "Bharathi Park Rd, near Forest College Campus, Saibaba Colony, Coimbatore, Tamil Nadu 641043,  <a target=\"_blank\" href=\"https://goo.gl/maps/weESEPDBy7XKWVUB8\"> here</a> "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "hostel",
+                        "patterns": [
+                                "hostel facility",
+                                "hostel servive",
+                                "hostel location",
+                                "hostel address",
+                                "hostel facilities",
+                                "hostel fees",
+                                "Does college provide hostel",
+                                "Is there any hostel",
+                                "Where is hostel",
+                                "do you have hostel",
+                                "do you guys have hostel",
+                                "hostel",
+                                "hostel capacity",
+                                "what is the hostel fee",
+                                "how to get in hostel",
+                                "what is the hostel address",
+                                "how far is hostel from college",
+                                "hostel college distance",
+                                "where is the hostel",
+                                "how big is the hostel",
+                                "distance between college and hostel",
+                                "distance between hostel and college"
+                        ],
+                        "responses": [
+                                "Sri Avinashilingam Education Trust Hostel was established with one block in 1960 and has been gradually extended in to seven blocks until the year 1991. This trust hostel provides the atmosphere of residence aiming at inculcating discipline and promoting courteous behavior, family atmosphere, appreciation of dignity of labour, capacity of self-help and regular habits of prayer towards the mission and vision of self-development and empowerment of women.Nearly 1024 students can accomadate.We provide 7 hostel buildings.For further details click <a target=\"_blank\" href=\"https://sites.google.com/avinuty.ac.in/saeth/home\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "event",
+                        "patterns": [
+                                "events organised",
+                                "list of events",
+                                "list of events organised in college",
+                                "list of events conducted in college",
+                                "What events are conducted in college",
+                                "Are there any event held at college",
+                                "Events?",
+                                "functions",
+                                "what are the events in this department",
+                                "tell me about events",
+                                "what about events"
+                        ],
+                        "responses": [
+                                "Webinars, Seminars,Workshops are conducted to enhance the students knowledge. For more information you can visit college Website <a target=\"_blank\" href=\"https://avinuty.ac.in/maincampus/uploads/dept/science/computer/2021/Events%20Organized_CS.pdf\"> here "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "document",
+                        "patterns": [
+                                "document to bring",
+                                "documents needed for admision",
+                                "documents needed at the time of admission",
+                                "documents needed during admission",
+                                "documents required for admision",
+                                "documents required at the time of admission",
+                                "documents required during admission",
+                                "What document are required for admission",
+                                "Which document to bring for admission",
+                                "documents",
+                                "what documents do i need",
+                                "what documents do I need for admission",
+                                "documents needed"
+                        ],
+                        "responses": [
+                                "To know more about document required visit <a target=\"_blank\" href=\"https://avinuty.ac.in/maincampus/index.php?/admissions\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "floors",
+                        "patterns": [
+                                "size of campus",
+                                "building size",
+                                "How many floors does college have",
+                                "floors in college",
+                                "floors in college",
+                                "how tall is this college building",
+                                "floors"
+                        ],
+                        "responses": [
+                                "To know about campus follow this link <a target=\"_blank\" href=\"https://avinuty.ac.in/maincampus/uploads/facilities/infrastructure/Additional%20Information.pdf\"> here</a> "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "syllabus",
+                        "patterns": [
+                                "Syllabus for Computer Science Department",
+                                "what is the CS Department syllabus",
+                                "syllabus",
+                                "timetable",
+                                "what is syllabus",
+                                "syllabus"
+                        ],
+                        "responses": [
+                                "To know about  syllabus and timetable visit <a target=\"_blank\" href=\"https://avinuty.ac.in/maincampus/uploads/syllabus/comp_science/CS_syllabus.pdf\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "library",
+                        "patterns": [
+                                "is there any library",
+                                "library facility",
+                                "library facilities",
+                                "do you have library",
+                                "does the college have library facility",
+                                "college library",
+                                "where can i get books",
+                                "book facility",
+                                "Where is library",
+                                "Library",
+                                "Tell me about library",
+                                "how many libraries"
+                        ],
+                        "responses": [
+                                "There is one library with three floors. To further details click  <a target=\"_blank\" href=\"https://aulibrary.avinuty.ac.in\"> here</a>" 
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "infrastructure",
+                        "patterns": [
+                                "how is college infrastructure",
+                                "infrastructure",
+                                "college infrastructure"
+                        ],
+                        "responses": [
+                                " Avinashilingam University has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection. To know about teaching ang learning click <a target=\"_blank\" href=\"https://avinuty.ac.in/maincampus/uploads/facilities/infrastructure/teaching_learning.pdf\"> here</a> "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "canteen",
+                        "patterns": [
+                                "food facilities",
+                                "canteen facilities",
+                                "canteen facility",
+                                "is there any canteen",
+                                "Is there a cafetaria in college",
+                                "Does college have canteen",
+                                "Where is canteen",
+                                "where is cafetaria",
+                                "canteen",
+                                "Cafetaria"
+                        ],
+                        "responses": [
+                                "Avinuty has canteen with variety of food available"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "menu",
+                        "patterns": [
+                                "food menu",
+                                "food in canteen",
+                                "Whats there on menu",
+                                "what is available in college canteen",
+                                "what foods can we get in college canteen"
+                        ],
+                        "responses": [
+                                "we serve Bread Pakoda, Chowmin, Thaali, Samosa, Dal Rice and many more on menu"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "placement",
+                        "patterns": [
+                                "What is college placement",
+                                "Which companies visit in college",
+                                "What is average package",
+                                "companies visit",
+                                "package",
+                                "placement",
+                                "recruitment",
+                                "companies"
+                        ],
+                        "responses": [
+                                "To know about placement visit <a target=\"_blank\" href=\"https://avinuty.ac.in/maincampus/index.php?/placements\">here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "ithod",
+                        "patterns": [
+                                "Who is CS Department HOD",
+                                "Where is CS HOD",
+                                "cs hod",
+                                "name of cs hod"
+                        ],
+                        "responses": [
+                                "Dr. Geethalakshmi is CS Department HOD who is available on third floor of the Library block."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "civilhod",
+                        "patterns": [
+                                "Who is Civil HOD",
+                                "Where is civil HOD",
+                                "civil hod",
+                                "name of civil hod"
+                        ],
+                        "responses": [
+                                "Dr. Athar Hussain is Civil HOD who is available on Ground floor"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "b.voc",
+                        "patterns": [
+                                "Who is Head of b.voc AI and ML",
+                                "Where is  B.Voc AI and ML?",
+                                "B.Voc AI and ML",
+                                "b.voc ai and ml",
+                                "staff names of b.voc ai and ml"
+                        ],
+                        "responses": [
+                                "Dr.Radha is the nodal officer of the B.Voc Artificial Intelligence and Machine Learning.She will available at the Second floor of library block..Dr.Alamelumangai , Dr. Prabha, Ramya are the staffs of the b.voc ai and ml."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "dean",
+                        "patterns": [
+                                "what is the name of dean",
+                                "whatv is the dean name",
+                                "dean name",
+                                "Who is this school Dean?",
+                                "Where is dean's office",
+                                "Dean"
+                        ],
+                        "responses": [
+                                "Prof. Padhmavathi is the Dean of Physical and Computational Science principal who is available on Ground floor of science block."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "sem",
+                        "patterns": [
+                                "exam dates",
+                                "exam schedule",
+                                "When is semester exam",
+                                "Semester exam timetable",
+                                "sem",
+                                "semester",
+                                "exam",
+                                "when is exam",
+                                "exam timetable",
+                                "exam dates",
+                                "when is semester"
+                        ],
+                        "responses": [
+                                "Here is the Academic Calendar of 2022 - 2023  <a target=\"_blank\" href=\"https://avinuty.ac.in/maincampus/uploads/examination/calender/Revised%20Even%20Semester%20Calendar%20of%20Events%202022-2023.pdf\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "admission",
+                        "patterns": [
+                                "what is the process of admission",
+                                "what is the admission process",
+                                "How to take admission in your college",
+                                "What is the process for admission",
+                                "admission",
+                                "admission process"
+                        ],
+                        "responses": [
+                                "Application can also be submitted online through the Unversity's  <a target=\"_blank\" href=\"www.ipu.ac.in\">website</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "facilities",
+                        "patterns": [
+                                "What facilities college provide",
+                                "College facility",
+                                "What are college facilities",
+                                "facilities",
+                                "facilities provided"
+                        ],
+                        "responses": [
+                                "Avinuty provides fully AC Lab with internet connection, smart classroom, Auditorium, library,canteen To know about our department click <a target=\"_blank\" href=\"https://avinuty.ac.in/maincampus/uploads/dept/science/computer/2021/Facilities.pdf\"> here</a> "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "college intake",
+                        "patterns": [
+                                "max number of students",
+                                "number of seats per branch",
+                                "number of seats in each branch",
+                                "maximum number of seats",
+                                "maximum students intake",
+                                "What is college intake",
+                                "how many stundent are taken in each branch",
+                                "seat allotment",
+                                "seats"
+                        ],
+                        "responses": [
+                                "For CS, approximately 60 students per branch. "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "uniform",
+                        "patterns": [
+                                "college dress code",
+                                "college dresscode",
+                                "what is the uniform",
+                                "can we wear casuals",
+                                "Does college have an uniform",
+                                "Is there any uniform",
+                                "uniform",
+                                "what about uniform",
+                                "do we have to wear uniform"
+                        ],
+                        "responses": [
+                                "Avinuty does not have uniform. Salwar is only allowed. No Leggins with cut top is allowed. Duppatta is must."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "committee",
+                        "patterns": [
+                                "what are the different committe in college",
+                                "different committee in college",
+                                "Are there any committee in college",
+                                "Give me committee details",
+                                "committee",
+                                "how many committee are there in college"
+                        ],
+                        "responses": [
+                                "There are various committe in college you can see at  <a target=\"_blank\" href=\"http://www.gecdelhi.ac.in/grievance%20redressal%20sysytem.html\">here</a> "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "random",
+                        "patterns": [
+                                
+                                "I love you",
+                                "Will you marry me",
+                                "Do you love me"
+                        ],
+                        "responses": [
+                                "I am not program for this please ask appropriate query"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "swear",
+                        "patterns": [
+                                "fuck",
+                                "bitch",
+                                "shut up",
+                                "hell",
+                                "stupid",
+                                "idiot",
+                                "dumb ass",
+                                "asshole",
+                                "fucker"
+                        ],
+                        "responses": [
+                                "please use appropriate language",
+                                "Maintaining decency would be appreciated"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "vacation",
+                        "patterns": [
+                                "holidays",
+                                "when will semester starts",
+                                "when will semester end",
+                                "when is the holidays",
+                                "list of holidays",
+                                "about vacations",
+                                "about holidays",
+                                "When is vacation",
+                                "When is holidays",
+                                "how long will be the vacation"
+                        ],
+                        "responses": [
+                                "Please refer academic calendar <a target=\"_blank\" href=\"https://avinuty.ac.in/maincampus/uploads/examination/calender/Revised%20Even%20Semester%20Calendar%20of%20Events%202022-2023.pdf\">here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "salutaion",
+                        "patterns": [
+                                "okk",
+                                "okie",
+                                "nice work",
+                                "well done",
+                                "good job",
+                                "thanks for the help",
+                                "Thank You",
+                                "its ok",
+                                "Thanks",
+                                "k",
+                                "ok",
+                                "okay"
+                        ],
+                        "responses": [
+                                "I am glad I helped you",
+                                "welcome, anything else i can assist you with?"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "task",
+                        "patterns": [
+                                "what can you do",
+                                "what are the thing you can do",
+                                "things you can do",
+                                "what can u do for me",
+                                "how u can help me",
+                                "why i should use you"
+                        ],
+                        "responses": [
+                                "I can answer to low-intermediate questions regarding college",
+                                "You can ask me questions regarding college, and i will try to answer them"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag":"ragging",
+                        "patterns":[
+                                "ragging",
+                                "is ragging practice active in college",
+                                "does college have any antiragging facility",
+                                "is there any ragging cases",
+                                "is ragging done here",
+                                "ragging juniors",
+                                "ragging history",
+                                "ragging incidents"
+                                
+                        ],
+                        "responses": [
+                                "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+                        ]
+
+                },
+                {
+                        "tag":"hod",
+                        "patterns":[
+                                "hod",
+                                "hod name",
+                                "who is the hod"
+                        ],
+                        "responses":[
+                                "HODs differ for each branch, please be more specific like: (HOD it)"
+                        ]
+                },
+                {
+                        "tag":"transport",
+                        "patterns":[
+                                "dtc bus route",
+                                "mode of transportation",
+                                "how to get to college",
+                                "buses for college",
+                                "college buses",
+                                "bus routes",
+                                "list of buses for travelling"
+                                
+                        ],
+                        "responses":[
+                                "Tvs is the bus stop for college."
+                        ]
+                },
+                {
+                        "tag": "metro",
+                        "patterns":[
+                                "nearest metro station",
+                                "what is the nearest metro station",
+                                "which metro station is near",
+                                "closest metro station",
+                                "which metro station is closest",
+                                "nearby metro stations",
+                                "metro",
+                                "metro station nearby"
+                        ],
+                        "responses":[
+                                "VadaKovai junction near the college campus."
+                        ]
+                }
+                
+        ]
+}
